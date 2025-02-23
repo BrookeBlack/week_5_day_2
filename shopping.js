@@ -1,13 +1,13 @@
 'use strict';
 
 function westernShopping() {
-    let name;
+    let quanity;
     let item;
     let avaliable;
-    name = prompt("What is your name?");
+    quanity = 3 avaliabl
     item = (`Tony Lama 3R size 8`);
-    avaliable = prompt("quanity = 1")
-    weatherChecker.innerHTML = `Hi ${name}, Let's check the avaliability of your item!`;
+    avaliable = prompt(`${quanity} = 1`)
+    weatherChecker.innerHTML = `Hello! Let's check the avaliability of ${item}!`;
     westernP.innerHTML = `${item} has a ${avaliable}!`;
   }
   

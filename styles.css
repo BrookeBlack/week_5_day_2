@@ -1,0 +1,62 @@
+body {
+   background-color: lightsalmon; 
+}
+
+nav a {
+    display: inline-flex;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+   display: inline;
+   list-style-type: none;
+   padding: 8px;
+   margin: 10px;
+   }
+
+   a:hover {
+    background-color: #ec46ad;
+    color: black;
+  }
+  a.active {
+    background-color: #04AA6D;
+    color: rgb(230, 39, 188);
+  }
+  nav a {
+    color: black;
+    opacity: .6;
+    text-decoration: none;
+    font-family: "Rosewood Std Fill", Impact, Serif;
+    transition: opacity .5s ease-in-out;
+    list-style-type: none;
+  }
+
+  p {
+    margin: 25px;
+  }
+  
+  footer {
+    margin: 50px;
+  }
+  
+  button {
+    margin: 25px;
+  }
+  
+  h1{
+    margin: 15px;
+    padding: 10px;
+  }
+
+  img {
+    width: 350px;
+    height: auto;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25%;
+  }
+   
+  .boots {
+    width: 150px;
+    height: auto;
+  }
